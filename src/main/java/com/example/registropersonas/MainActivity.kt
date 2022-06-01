@@ -195,7 +195,6 @@ fun RegistroOcupacionesScreen(GoListOcup:() ->Unit,goListPerson:() -> Unit ) {
                 .fillMaxWidth()
                 .padding(8.dp)
         ) {
-
             OutlinedTextField(
                 leadingIcon = { Icon(imageVector = Icons.Default.Done, contentDescription = null) },
                 value = ocup,
