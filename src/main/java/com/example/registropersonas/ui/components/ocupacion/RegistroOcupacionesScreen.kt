@@ -22,8 +22,8 @@ fun RegistroOcupacionesScreen( navHostController: NavHostController, ocupacionVi
         topBar = {
             TopAppBar(title = { Text(text = "Registro Ocupaciones") })
     },
-            scaffoldState = ScaffoldState
-    ){
+            scaffoldState = ScaffoldState)
+    {
         Column(
             modifier = Modifier
                 .fillMaxWidth()
